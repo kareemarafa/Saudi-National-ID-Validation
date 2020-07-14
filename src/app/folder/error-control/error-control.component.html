@@ -1,0 +1,7 @@
+<div class="validationMsg" *ngIf="this.ctl.dirty || this.ctl.touched">
+    <ng-container *ngFor="let errorMsg of errorMessages">
+        <div style="color: red; font-weight: bold;">
+            {{errorMsg.message}} {{errorMsg.params.value}}
+        </div>
+    </ng-container>
+</div>
