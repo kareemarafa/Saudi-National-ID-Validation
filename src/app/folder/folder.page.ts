@@ -1,7 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {ActivatedRoute} from '@angular/router';
 import {FormBuilder, FormGroup, Validators} from '@angular/forms';
-import {CustomValidations} from '../../../../src/app/validations';
+import {CustomValidations} from './validations';
 
 @Component({
     selector: 'app-folder',
